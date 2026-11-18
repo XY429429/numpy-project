@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+
+# Course-provided large / reference data: obtain from the course attachment.
+# The manifests stay in Git so the expected fingerprints are documented.
+weights/*.npz
+assets/images/
+assets/reference_outputs.npz
+
+# Course handouts and lecture demos are not needed to reproduce the result.
+lecture-demos/
+practice/
+PPT-CODE-MAP.txt
+
+# Generated outputs
+results/output_tokens.npz
+output_tokens.npz
+
+# LaTeX build artifacts (main.pdf is kept on purpose)
+report/*.aux
+report/*.log
+report/*.fls
+report/*.fdb_latexmk
+report/*.xdv
+report/*.out
+report/*.toc
+report/preview/
+
+# OS
+.DS_Store
+Thumbs.db
